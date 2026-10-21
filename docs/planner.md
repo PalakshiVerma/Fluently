@@ -33,11 +33,11 @@
 
 **Goal:** Make the application run and provide clear navigation.
 
-- [ ] Create `app.py` as the Streamlit entry point.
-- [ ] Add page/navigation structure for Dashboard, Attendance, AI Teacher, Materials, and Practice.
-- [ ] Add a consistent page title and short project description.
-- [ ] Add friendly loading and error states.
-- [ ] Run the app locally and test each page.
+- [x] Create `app.py` as the Streamlit entry point.
+- [x] Add page/navigation structure for Dashboard, Attendance, AI Teacher, Materials, and Practice.
+- [x] Add a consistent page title and short project description.
+- [x] Add friendly loading and error states.
+- [x] Run the app locally and test each page.
 
 **Exit criteria:** The app launches locally and navigation works, even if some pages are placeholders.
 
@@ -86,20 +86,9 @@
 
 **Exit criteria:** The AI Teacher answers general questions and supports sensible follow-up turns.
 
-## Phase 5 — Daily English Practice
+## Phase 5 — Daily English Practice (Scoped Out / Removed)
 
-**Goal:** Make it easy to practise every day.
-
-- [ ] Create a Practice page.
-- [ ] Display a daily speaking prompt.
-- [ ] Display a tongue twister.
-- [ ] Add a 10-minute speaking task.
-- [ ] Allow the user to mark each task complete.
-- [ ] Save completion status in SQLite.
-- [ ] Add a simple progress summary.
-- [ ] Test that tasks and completion status behave correctly across restarts.
-
-**Exit criteria:** The user can see daily practice tasks, complete them, and review progress.
+> *Note: Removed as per project requirements to focus exclusively on Class Scheduling, Attendance Tracking, Materials Vault, and AI Teacher.*
 
 ## Phase 6 — Reminders
 
