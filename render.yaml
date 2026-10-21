@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: fluently-speakeasy-ai
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
+    startCommand: "streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: GEMMA_PROVIDER
+        sync: false
+      - key: GEMMA_API_KEY
+        sync: false
+      - key: GEMMA_MODEL
+        sync: false
+      - key: APP_ENV
+        value: production

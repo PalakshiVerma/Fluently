@@ -23,8 +23,8 @@
 - [x] Create `.gitignore` for `.env`, virtual environments, caches, local databases, uploads, and generated files.
 - [x] Create `.env.example` with placeholder variable names only.
 - [x] Choose and verify the exact hosted Gemma API/provider and model ID.
-- [ ] Create an API key and store it in `.env` locally.
-- [ ] Make one minimal Python API request and confirm a response.
+- [x] Create an API key and store it in `.env` locally.
+- [x] Make one minimal Python API request and confirm a response.
 - [x] Add a README with setup instructions and the project goal.
 
 **Exit criteria:** A clean Python project can call the selected Gemma API without exposing the key.

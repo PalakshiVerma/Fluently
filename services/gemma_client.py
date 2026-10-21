@@ -66,8 +66,9 @@ def query_gemma(messages: List[Dict[str, str]], provider: Optional[str] = None, 
             prompt_parts.append(f"{role}: {m['content']}")
         prompt_parts.append("Teacher: ")
         
+        target_model = model if ("gemma" in model.lower()) else "models/gemma-4-26b-a4b-it"
         response = client.models.generate_content(
-            model=model if "gemma" in model else "gemma-2-9b-it",
+            model=target_model,
             contents="\n".join(prompt_parts)
         )
         return response.text

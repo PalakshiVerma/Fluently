@@ -4,6 +4,8 @@ import sys
 
 # Add services folder to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv(), override=True)
 from services.gemma_client import query_gemma, get_config
 
 st.set_page_config(page_title="AI Teacher | Fluently", page_icon="🤖", layout="wide")
