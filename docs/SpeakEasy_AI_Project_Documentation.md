@@ -86,11 +86,11 @@ The MVP prioritizes a reliable dashboard, a basic class/attendance workflow, and
 | **ID** | **Requirement**      | **Priority** | **Acceptance criteria**                                                                                                |
 | ------ | -------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | FR-01  | Dashboard            | P0           | Displays next class, a clickable class link, attendance summary, and today's tasks.                                    |
-| FR-02  | Class configuration  | P0           | User can configure class name, date/time, and join URL.                                                                |
+| FR-02  | Class configuration  | P0           | User can configure class name, date/time, and join URL. Default schedule: Tuesday, Thursday, Saturday 8:00 PM – 9:00 PM IST (FastInfoClass Zoom Lobby). |
 | FR-03  | Attendance           | P0           | User can mark present/absent and see saved records.                                                                    |
 | FR-04  | AI teacher text chat | P0           | User asks a general English question and receives a relevant answer.                                                   |
 | FR-05  | Follow-up context    | P1           | Teacher can use recent conversation context for follow-up questions within a session.                                  |
-| FR-06  | Class reminder       | P1           | Reminder is scheduled for 10 minutes before class in the configured timezone.                                          |
+| FR-06  | Class reminder       | P1           | Reminder is scheduled for 10 minutes before class (7:50 PM on Tue, Thu, Sat).                                          |
 | FR-07  | Daily practice       | P1           | App displays a daily speaking prompt and tongue twister.                                                               |
 | FR-08  | Practice reminder    | P1           | Daily reminder can be configured and triggered while scheduler is running.                                             |
 | FR-09  | Document vault       | P1           | User can upload supported PDF/DOCX/TXT files and view them in a list.                                                  |
